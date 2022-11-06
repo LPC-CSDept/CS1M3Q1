@@ -1,5 +1,5 @@
-#ifndef Q2
-#define Q2
+#ifndef Q1
+#define Q1
 #include <iostream>
 #include <fstream>
 #include <sstream>

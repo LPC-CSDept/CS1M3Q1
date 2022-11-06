@@ -1,14 +1,23 @@
 #include "Q1.hpp"
 
-int getNumLines(string filename)
+int makeRecords(Student student[])
 {
-        return cnt;
 }
-int getNumWords(string filename)
+void printRecords(Student student[], int N)
 {
-        return cnt;
+        cout << "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * \n";
+        for (int i = 0; i < N; i++)
+        {
+                cout << "Name: " << student[i].sname << "\t";
+                cout << "ID: " << student[i].id << "\t";
+                cout << "Phone Number: " << student[i].tel << "\t";
+                cout << "\tScores: \t";
+                cout << fixed << setprecision(2);
+                for (int j = 0; j < SCN; j++)
+                        cout << student[i].scores[j] << "\t";
+                cout << endl;
+        }
 }
-char getMFU(string filename)
+void writeTop3Records(Student student[], int N)
 {
-        return mfu;
 }

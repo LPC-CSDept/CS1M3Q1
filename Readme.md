@@ -7,7 +7,7 @@
 
 <!-- ### Quiz 9: Question 2 -->
 
-### Midterm 2: Question 1
+### Midterm 3: Question 1
 
 ### Complete the "Q1.cpp"
 
